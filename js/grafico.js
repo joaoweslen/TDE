@@ -35,11 +35,10 @@ function fetchAndCreatePlotlyChart(jsonFileName, divId) {
 
 fetchAndCreatePlotlyChart('../graficos/grafico_pizza_mar.json', 'graf1');
 fetchAndCreatePlotlyChart('../graficos/grafico_pizza_terra.json', 'graf2');
+fetchAndCreatePlotlyChart('../graficos/grafico_pizza_terra_mar.json', 'graf3');
 
-fetchAndCreatePlotlyChart('../graficos/grafico_barra_terra_mar.json', 'graf3');
 fetchAndCreatePlotlyChart('../graficos/grafico_barra_mar.json', 'graf4');
 fetchAndCreatePlotlyChart('../graficos/grafico_barra_terra.json', 'graf5');
-
-
 fetchAndCreatePlotlyChart('../graficos/grafico_barra_terra_mar.json', 'graf6');
+
 fetchAndCreatePlotlyChart('../graficos/grafico_linha_producao_x_preco.json', 'graf7');
