@@ -195,7 +195,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: var(--first-color);
+    color: rgb(0, 115, 255);
     font-size: 35px;
     font-weight: 600;
 }
@@ -216,7 +216,7 @@ section .title::after{
     width: 110px;
     height: 30px;
     line-height: 30px;
-    background-color: var(--first-color);
+    background-color: rgb(0, 115, 255);
     color: #FFF;
     border-radius: 5px;
     text-align: center;
@@ -355,11 +355,11 @@ section .title::after{
 }
 .objective .title::after,
 .teams .title::after{
-    background: var(--tree-color);;
+    background: var(--tree-color);
 }
 .objective .objec-content .card{
     width: calc(47% - 20px);
-    background: var(--tree-color);;
+    background: var(--tree-color);
     text-align: center;
     border-radius: 6px;
     padding: 35px 25px;
@@ -367,7 +367,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .objective .objec-content .card:hover{
-    background: var(--tree-color);;
+    background: var(--tree-color);
 }
 .objective .objec-content .card .box{
     transition: all 0.3s ease;

@@ -33,6 +33,7 @@ a:hover{
     text-decoration: none;
 }
 
+
 @media screen and (max-width: 500px){
     .leaflet-control{
         visibility: hidden;
